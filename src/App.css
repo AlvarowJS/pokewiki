@@ -8,41 +8,57 @@
   width: 100px;
   height: 150px;
 }
+.pokemon__filters{
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  margin: 20px 100px;
+}
+
 
 .pokemon__card {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-
   
+  justify-content: center;
 
 }
 .pokemon__cardList{
-  border: 1px solid red;
+  border-radius: 5px;
+  
   padding: 15px;
   text-align: center;
+
 }
 .pokemon__cardList img{
   width: 150px;
   height: 150px;  
+  background-color: inherit;
 }
 .pokemon__cardList--topInfo{
   display: flex;
-  gap: 30px;
+  gap: 90px;
   justify-content: center;
 }
+
 .pokemon__cardList--botInfo{
   display: flex;
-  gap: 30px;
+  gap: 50px;
   justify-content: center;
 }
-.pokemon__cardList--image{
-  background-color: red;
-}
+
 .pokemon__cardList--pokemon{
+  border-radius: 10px;
   background-color: white;
   z-index: 1;
+  padding: 10px;
 }
+.pokemon__cardList--pokemon p{ 
+  color: #9F9F9F;
+  margin-top: 0px;
+}
+
 /* Background Colors for type */
 .steel {
 	background-color: #f4f4f4;
@@ -50,57 +66,71 @@
 
 .fire {
 	background-color: #FDDFDF;
+  color: #E75C35;
 }
 
 .grass {
 	background-color: #DEFDE0;
-  border: 5px solid #DEFDE0;
+  color: #416460;
+ 
 }
 
 .electric {
 	background-color: #FCF7DE;
+  color: rgb(181, 181, 49);
 }
 
 .water, .ice {
 	background-color: #DEF3FD;
+  color: #1479FB;
 }
 
 .ground {
 	background-color: #f4e7da;
+  color: #7E7E7E;
 }
 
 .rock {
 	background-color: #d5d5d4;
+  color: #7E7E7E;
 }
 
 .fairy {
 	background-color: #fceaff;
+  color: #ED8F8F;
 }
 
 .poison {
-	background-color: #98d7a5;
+	background-color: #CE9BFF;
+  color: #5B3184;
 }
 
 .bug {
 	background-color: #f8d5a3;
+  color: #654008;
 }
 
 .dragon {
 	background-color: #97b3e6;
+  color: #478A93;
 }
 
 .psychic {
-	background-color: #eaeda1;
+	background-color: #CD7D98;
+  color: #971B45;
 }
 
 .flying {
 	background-color: #F5F5F5;
+  color: #735259;
 }
 
 .fighting {
 	background-color: #E6E0D4;
+  color: #96402A
 }
 
 .normal {
 	background-color: #F5F5F5;
+  color: #735259;
 }
