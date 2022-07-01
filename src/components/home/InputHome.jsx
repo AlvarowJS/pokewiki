@@ -20,10 +20,11 @@ const InputHome = () => {
         navigate('/pokedex')
     }
     return (
-        <form onSubmit={handleSubmit(submit)}>
-            <input type="text" placeholder='Ingrese tu nombre de entrenador' 
+        <form onSubmit={handleSubmit(submit)} className='name__trainer'>
+            
+            <input type="text" placeholder='Enter your name' 
             {...register('nameUser')}/>
-            <button>Go to pokedex</button>
+            <button>Go!</button>
         </form>
     )
 }

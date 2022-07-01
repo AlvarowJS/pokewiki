@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import Form from './Form'
 import PokeCard from './PokeCard'
-import PokeInfo from './PokeInfo'
+import logo from '../../assets/img/pokedexLogo.png'
 
 const PokedexScreen = () => {
 
@@ -52,7 +52,8 @@ const PokedexScreen = () => {
 
     return (
         <div>
-            <h1>Hola {userName}, Bienvenido a la pokedex</h1>
+            <img className='menu__logo' src={logo} alt="" />
+            <h1>Hi {userName}, Welcome to the pokedex</h1>
 
             <Form
                 setPokeSearch={setPokeSearch}

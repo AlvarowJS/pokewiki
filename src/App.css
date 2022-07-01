@@ -4,9 +4,36 @@
   
   align-items: center;
 }
-.login img {
+.login h2 {
+  color: #fe1936;
+  font-size: 40px;
+  margin: 5px 0px;
+}
+.login p{
+  color: #302F2F;
+}
+.login__logo{
+  width: 400px;
+  height: 100px;
+}
+.login__avatar{
   width: 100px;
   height: 150px;
+}
+.name__trainer input{  
+  border: none;
+  
+  padding: 5px;
+  width: 300px;
+  box-shadow: 3px 1px 2px rgb(52, 46, 46);
+}
+.name__trainer button{  
+  border: none;
+  box-shadow: 3px 1px 2px rgb(52, 46, 46);
+  padding: 5px;
+  width: 100px;
+  background-color: #fe1936;
+  color: white;
 }
 .pokemon__filters{
   display: flex;
@@ -14,8 +41,21 @@
   justify-content: space-between;
   margin: 20px 100px;
 }
-
-
+.pokemon__filters input{
+  width: 300px;
+  border: none;
+  box-shadow: 3px 1px 2px 1px rgb(52, 46, 46);
+}
+.pokemon__filters select{
+  width: 200px;
+  padding: 7px;
+  border: none;
+  box-shadow: 3px 1px 2px 1px rgb(52, 46, 46);
+}
+.menu__logo{
+  width: 400px;
+  height: 100px;
+}
 .pokemon__card {
   display: flex;
   flex-wrap: wrap;
